@@ -5,12 +5,12 @@
 - Plataforma colaborativa onde alunos podem ajudar outros alunos em situações
 adversas como a pandemia de COVID. A ferramenta é embasada na
 funcionalidade “adoção de alunos” que promove o compartilhamento de
-materiais, mentorias, etc a fim de minimizar os problemas de acessibilidade à
+materiais, mentorias, etc afim de minimizar os problemas de acessibilidade à
 recursos acadêmicos que a pandemia gera para a comunidade acadêmica.
 
 ### Problema
 
-- A falta de acessibilidade  é um problema que infelizmente pertence à realidade Brasileira. A atual pandemia mundial envidencia esta situação e a plataforma surge como um meio de auxiliar tais pessoas neste contexto em um ambiente universitário.
+- A falta de acessibilidade  é um problema que infelizmente pertence à realidade Brasileira. A atual pandemia mundial evidencia esta situação e a plataforma surge como um meio de auxiliar tais pessoas neste contexto em um ambiente universitário.
 
 ### Nossa Solução
 
