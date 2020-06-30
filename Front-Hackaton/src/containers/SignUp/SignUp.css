@@ -1,0 +1,53 @@
+.card-input{
+    margin-top: 15px;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked{
+    color: 	#143c7c !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+    background-color: #143c7c !important;
+}
+.anchor-home-page{
+    color: #143c7c;
+    cursor: pointer;
+}
+
+.anchor-home-page:hover{
+    font-weight: bold;
+}
+
+.opacity{
+    opacity: 0.2;
+}
+
+.loading-sing-up{
+    z-index: 1000;
+}
+.first-card{
+    padding-left: 20%;
+}
+
+.input-sign-up-size{
+    width: 70%;
+}
+
+.div-card-top{
+    /* margin-top: calc((100vh - 50px)*0.1); */
+    margin-top: 0px;
+}
+
+.MuiFormControl-root{
+    width: 100%;
+}
+
+.button-sign-up{
+    width: 70% !important;
+    margin-top: 18px !important;
+    background-color: #008940 !important;
+}
+
+.button-sign-up > span{
+    color: #FFFFFF !important;
+}

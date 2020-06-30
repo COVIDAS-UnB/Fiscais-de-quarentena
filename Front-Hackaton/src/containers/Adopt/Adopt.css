@@ -1,0 +1,168 @@
+.title{
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+}
+.sub-title{
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 19px;
+}
+.titleOption{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 70px 0 0 20px;
+    color: #FFFFFF;
+
+    margin: 0;
+    width: 100%;
+}
+.subtitleOption{
+    font-family: 'Noto Sans';
+    margin: 10px 5px 0 20px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 0px;
+    text-align: left;
+}
+.main{
+    padding: 20px 0 0 60px;
+}
+.divOptions{
+    width: calc(100% - 20px);
+    margin: 80px 20px 0 0;
+}
+.divBook{
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    width: 18vw;
+    height: 40vh;
+    vertical-align: top;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(35, 35, 35, 0.87), rgba(35, 35, 35, 0.87)),url('../../assets/img/books.png');
+    box-shadow: 10px 8px 0px -2px rgba(0, 137, 64, 0.6);
+}
+.divBook:hover{
+    background-image: linear-gradient(rgba(35, 35, 35, 0.80), rgba(35, 35, 35, 0.80)),url('../../assets/img/books.png');
+}
+.divAnotherBook{
+    cursor: pointer;
+    margin-left: 80px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    width: 18vw;
+    height: 40vh;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(35, 35, 35, 0.87), rgba(35, 35, 35, 0.87)),url('../../assets/img/books2.png');
+    box-shadow: 10px 8px 0px -2px rgba(0, 137, 64, 0.6);
+}
+.divAnotherBook:hover{
+    background-image: linear-gradient(rgba(35, 35, 35, 0.80), rgba(35, 35, 35, 0.80)),url('../../assets/img/books2.png');
+}
+.divCar{
+    cursor: pointer;
+    margin-left: 80px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    width: 18vw;
+    height: 40vh;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(35, 35, 35, 0.87), rgba(35, 35, 35, 0.87)),url('../../assets/img/carro.jpg');
+    box-shadow: 10px 8px 0px -2px rgba(0, 137, 64, 0.6);
+}
+.divCar:hover{
+    background-image: linear-gradient(rgba(35, 35, 35, 0.80), rgba(35, 35, 35, 0.80)),url('../../assets/img/carro.jpg');
+}
+.MuiChip-root{
+    background-color: #02397A !important;
+    color: #ffffff !important;
+}
+.MuiChip-deleteIcon{
+    color: #ffffff !important;
+}
+.divButton{
+    width: 55%;
+    text-align: right;
+    padding-top: 100px;
+}
+.button{
+    background-color: rgba(0, 137, 64, 1) !important;
+    color: #ffffff !important;
+}
+.buttonLoading{
+    background-color: rgb(184, 184, 184) !important;
+    color: #959595 !important;
+}
+.image{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.divImage{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    height: 150px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.divTextImage{
+    width: calc(65% - 50px);
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 20px;
+}
+.divOptionsUser{
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+}
+.titleName{
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+.textUser{
+    font-family: Noto Sans;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+}
+.divConnections{
+    width: calc(100% - 60px);
+}
+.buttonProgress{
+    color: #008940 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+.divBook, .divAnotherBook, .divCar{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px 16px;
+}

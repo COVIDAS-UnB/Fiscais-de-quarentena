@@ -1,0 +1,15 @@
+.div-page-lout-loading{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-loading{
+    width:250px;
+    height:250px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-125px;
+    margin-left:-125px;
+}

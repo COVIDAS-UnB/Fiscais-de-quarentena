@@ -1,0 +1,54 @@
+.cardConnection{
+    box-shadow: 10px 8px 0px 0px rgba(0, 137, 64, 0.6);
+    background: #F0F0F0;
+    border-radius: 8px;
+    width: calc(50% - 60px);
+    margin: 30px;
+    display: inline-block;
+    height: 25vh;
+}
+.divImageCard{
+    width: 75px;
+    display: inline-block;
+    text-align: center;
+    height: 75px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 20px 0 0 10px;
+}
+.divInfo{
+    display: inline-block;
+    width: calc(70% - 10px);
+    margin-left: 10px;
+    height: 100%;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+.titleCardName{
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.subTitleCard{
+    margin-top: 10px;
+    font-family: Noto Sans;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+.buttonCard{
+    margin-top: 20px !important;
+    background-color: rgba(0, 137, 64, 1) !important;
+    color: #ffffff !important;
+}
+.divRatingTitle{
+    display: flex;
+    flex-direction: row;
+}
+.ratingUser{
+    margin-left: 30px;
+}

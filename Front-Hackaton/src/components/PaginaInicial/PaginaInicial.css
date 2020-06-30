@@ -1,0 +1,126 @@
+.full-page{
+    width: 100vw;
+    height: calc(100vh - 50px);
+    display: block;
+}
+
+.paginal-inicial-imagem{
+    background-color: red;
+}
+
+.div-img{
+    margin-top:calc((100vh - 50px)*0.1);
+    margin-top: 0px;
+}
+
+.imagem-inicial-pessoas{
+    float:right;
+}
+
+.conteudo-paginal-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.homepage-title{
+    margin-top:calc((100vh)/2 - 200px);
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+.homepage-title h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 57px;
+    color: #1A1A1A;
+}
+.homepage-title > div{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 137, 64, 0.5);
+    border-radius: 8px;
+    height: 32px;
+    bottom: 0px;
+    right: -10px;
+    z-index: -1;
+}
+
+.div-homepage-text{
+    width: 70%;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.div-homepage-text h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.div-card{
+    display: inline-block;
+    width: calc( 50% );
+    margin-left: 40px;
+}
+
+.div-card-buttons{
+    display: flex;
+}
+.margin-left{
+    margin-left: 40px;
+}
+
+.button-homepage{
+    background-color: #008940;
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+    height: 52px;
+    color: #FFFFFF;
+    position: relative;
+    padding: 0px 24px;
+}
+
+.button-homepage > div{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 137, 64, 0.5);
+    border-radius: 8px;
+    height: 100%;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+}
+
+
+.button-homepage:hover{
+    color: #FFFFFF;
+    background-color: #143c7c;
+    animation: colorTransition;
+    animation-duration: 0.5s;
+}
+
+.text-button-homepage{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 15px;
+    }
+
+
+@keyframes colorTransition {
+    0% {
+        background-color: #008940;
+    }
+    100% {
+        background-color: #143c7c;
+    }
+}

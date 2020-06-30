@@ -1,0 +1,11 @@
+.listItem{
+    margin: 10px 0 !important;
+}
+.lastItem{
+    margin-top: auto !important;
+}
+.divItems{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

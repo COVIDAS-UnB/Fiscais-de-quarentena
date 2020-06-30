@@ -1,0 +1,47 @@
+.title{
+    font-family: Noto Sans;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+.text{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.divItem{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.divText{
+    width: calc(80% - 25px);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+.divIcon{
+    width: 25%;
+}
+.divIconSelected{
+    width: 100%;
+    transition: width 0.5s;
+}
+.divSelected{
+    width: 5%;
+    margin-right: 5px;
+}
+.divSelectedClosed{
+    width: 15%;
+    margin-right: 5px;
+}
+.circle{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    width: 100%;
+}
