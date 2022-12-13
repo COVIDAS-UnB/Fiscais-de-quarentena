@@ -18,7 +18,7 @@
     "axios": "^0.19.2",
     "cors": "^2.8.5",
     "dotenv-safe": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "faker-br": "^0.2.7",
     "jsonwebtoken": "^8.5.1",
